@@ -1,7 +1,6 @@
 # AI Email Generator — with Chrome Extension
 
-> Paste an email, pick a tone, and get a polished AI-generated reply in seconds — directly in your browser or Gmail inbox.
-
+>
 ![Stack](https://img.shields.io/badge/Backend-Spring%20Boot%203.x-brightgreen)
 ![Stack](https://img.shields.io/badge/Frontend-React%2019%20%2B%20Vite-blue)
 ![Stack](https://img.shields.io/badge/AI-Google%20Gemini-orange)

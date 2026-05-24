@@ -1,0 +1,43 @@
+{
+  "name": "AI Email Writer",
+  "description": "AI powered email writing assistant that helps you draft professional emails quickly and efficiently.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://localhost:8081/*",
+    "*://mail.google.com/*",
+    "*://outlook.office.com/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+         "*://mail.google.com/*",
+        "*://outlook.office.com/*"
+      ],
+      "css": [
+        "content.css"
+      ],
+        "run_at": "document_end"
+    }
+  ],
+  
+  "web_accessible_resources": [
+    {
+      "resources": [ "icons/*" ],
+      "matches": [  "*://mail.google.com/*",
+        "*://outlook.office.com/*" ]
+    }
+  ],
+
+  "action": {
+    "default_title": "Email Writer Assistant",
+    "default_icon": "email_extensions.png"
+  }
+}

@@ -14,7 +14,6 @@
 - [Overview](#overview)
 - [Architecture](#architecture)
 - [Features](#features)
-- [Known Bugs to Fix Before Running](#known-bugs-to-fix-before-running)
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -23,8 +22,7 @@
   - [3. Chrome Extension Setup](#3-chrome-extension-setup)
 - [Environment Variables](#environment-variables)
 - [API Reference](#api-reference)
-- [Chrome Extension Details](#chrome-extension-details)
-- [What's Missing / Roadmap](#whats-missing--roadmap)
+- [Chrome Extension Details](#chrome-extension-details))
 - [Contributing](#contributing)
 - [License](#license)
 

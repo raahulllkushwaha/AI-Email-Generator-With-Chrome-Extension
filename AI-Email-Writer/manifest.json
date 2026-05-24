@@ -8,7 +8,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://localhost:8081/*",
+    "http://localhost:8081/*",
     "*://mail.google.com/*",
     "*://outlook.office.com/*"
   ],
